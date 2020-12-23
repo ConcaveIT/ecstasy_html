@@ -27,13 +27,10 @@ include('default/header.php');
             </div>
          </div>
       </div>
-      <?php
-      include('default/home_footer.php');
-      ?>
    </div>
 </section>
 
 
- <script src="js/custom.js"></script>
-</body>
-</html>
+<?php
+include('default/home_footer.php');
+?>
