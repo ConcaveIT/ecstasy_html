@@ -1,0 +1,27 @@
+@media (max-width: 767px){
+.show_on_home_1, .show_on_home_2,  .show_on_home_3,  .show_on_home_4 {
+    height: 240px;
+}
+}
+@media (min-width: 768px){
+	
+}
+
+
+@media (max-width: 991px){
+.desktop_navbar{
+display: none;
+}
+}
+@media (min-width: 992px){
+.mobile_navbar{
+display: none;	
+}	
+}
+
+
+@media (max-width: 991px){
+.logo img {
+    max-width: 120px;
+}
+}
