@@ -1,5 +1,8 @@
+$(".sm-menu").hide();
+
 
 $(document).ready(function () {
+
 $('.navbar-light .dmenu').hover(function () {
         $(this).find('.sm-menu').first().stop(true, true).slideDown(150);
     }, function () {
@@ -22,5 +25,7 @@ $(document).on('click', '#sidebar_hide',  function() {
 	$(".sidebar").css({'margin-left':'-100%', 'transition':'.65s'});
 });
 $(document).on('click', '#navbarDropdown',  function() {
-	$(".sm-menu").css({'display':'block', 'margin-left':'10px'});
+	$(this).parent('.dropdown').find(".sm-menu").toggle();
+	
 });
+

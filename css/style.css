@@ -266,7 +266,6 @@ line-height: 35px;
 margin-top: 10px; 
 }
 .sidebar ul li:hover{
-background: #14cab9;
 color:#fff;
 }
 .sidebar ul li:hover a{
@@ -300,6 +299,7 @@ text-decoration: none;
      padding: 10px;
     color: #fff;
     font-size: 14px;
+    text-decoration: none;
 }
 .mobile_mini {
     padding: 10px 0px;
@@ -307,4 +307,33 @@ text-decoration: none;
 }
 #sidebar_show{
   color:#fff;
+}
+
+#custom_submenu .sm-menu{
+    padding-left: 10px;
+    box-shadow: none;
+}
+
+#custom_submenu .dropdown-item{
+    font-size: 12px !important;
+    line-height: 25px;
+   
+}
+#custom_submenu{
+    box-shadow: none;
+}
+#custom_submenu a{
+    padding-left: 30px;
+}
+
+/* .dropdown-toggle:hover::before {
+    transform: rotate(0deg);
+}
+ .dropdown-toggle:hover::after {
+    transform: rotate(180deg);
+} */
+
+.sidebar ul li:hover a {
+    color: #000 !important;
+    text-decoration: none;
 }

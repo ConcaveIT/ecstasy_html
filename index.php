@@ -53,32 +53,114 @@
          </div>
          <div class="side_nav">
             <ul>
+               <li class="nav-item dmenu dropdown">
+                  <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  New In
+                  </a>
+                  <div class="sm-menu" aria-labelledby="navbarDropdown" id="custom_submenu">
+                     <a class="dropdown-item" href="#"> Casual Shirt</a>
+                     <a class="dropdown-item" href="#">Panjabi/Kurta</a>
+                     <a class="dropdown-item" href="#">Perfume</a>
+                     <a class="dropdown-item" href="#">Socks</a>
+                     <a class="dropdown-item" href="#">Polo</a>
+                     <a class="dropdown-item" href="#">Chinos</a>
+                     <a class="dropdown-item" href="#">Shorts</a>
+                     <a class="dropdown-item" href="#">T Shirts</a>
+                  </div>
+               </li>
+               <li> <a href="#">TANJIM SQUAD</a> </li>
+               <li class="nav-item dmenu dropdown">
+                  <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Winter
+                  </a>
+                  <div class="sm-menu" aria-labelledby="navbarDropdown" id="custom_submenu">
+                     <a class="dropdown-item" href="#">Casual Shirt</a>
+                     <a class="dropdown-item" href="#">Panjabi/Kurta</a>
+                     <a class="dropdown-item" href="#">Perfume</a>
+                     <a class="dropdown-item" href="#">Socks</a>
+                     <a class="dropdown-item" href="#">Polo</a>
+                     <a class="dropdown-item" href="#">Chinos</a>
+                     <a class="dropdown-item" href="#">Shorts</a>
+                     <a class="dropdown-item" href="#">T Shirts</a>
+                  </div>
+               </li>
+               <li class="nav-item dmenu dropdown">
+                  <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Shirts & Tees
+                  </a>
+                  <div class="sm-menu" aria-labelledby="navbarDropdown" id="custom_submenu">
+                     <a class="dropdown-item" href="#">Casual Shirt</a>
+                     <a class="dropdown-item" href="#">Panjabi/Kurta</a>
+                     <a class="dropdown-item" href="#">Perfume</a>
+                     <a class="dropdown-item" href="#">Socks</a>
+                     <a class="dropdown-item" href="#">Polo</a>
+                     <a class="dropdown-item" href="#">Chinos</a>
+                     <a class="dropdown-item" href="#">Shorts</a>
+                     <a class="dropdown-item" href="#">T Shirts</a>
+                  </div>
+               </li>
 
-            <li class="nav-item dmenu dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Services
-                </a>
-                <div class="dropdown-menu sm-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Software Development</a>
-                    <a class="dropdown-item" href="#">Web Designing & Development</a>
-                    <a class="dropdown-item" href="#">Mobile Application</a>
-                    <a class="dropdown-item" href="#">Business Solutions & Business Process</a>
-                    <a class="dropdown-item" href="#">Digital Marketing & SEO Services</a>
-                    <a class="dropdown-item" href="#">Web Hosting & Maintenance</a>
-                    <a class="dropdown-item" href="#">Cyber Security</a>
-                    <a class="dropdown-item" href="#">Block Chain Implementation</a>
-                    <a class="dropdown-item" href="#">Big Data</a>
-                </div>
-            </li>
+               <li class="nav-item dmenu dropdown">
+                  <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Ethnic & Festive Wear
+                  </a>
+                  <div class="sm-menu" aria-labelledby="navbarDropdown" id="custom_submenu">
+                     <a class="dropdown-item" href="#">Casual Shirt</a>
+                     <a class="dropdown-item" href="#">Panjabi/Kurta</a>
+                     <a class="dropdown-item" href="#">Perfume</a>
+                     <a class="dropdown-item" href="#">Socks</a>
+                     <a class="dropdown-item" href="#">Polo</a>
+                     <a class="dropdown-item" href="#">Chinos</a>
+                     <a class="dropdown-item" href="#">Shorts</a>
+                     <a class="dropdown-item" href="#">T Shirts</a>
+                  </div>
+               </li>
+               <li class="nav-item dmenu dropdown">
+                  <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Pants
+                  </a>
+                  <div class="sm-menu" aria-labelledby="navbarDropdown" id="custom_submenu">
+                     <a class="dropdown-item" href="#">Casual Shirt</a>
+                     <a class="dropdown-item" href="#">Panjabi/Kurta</a>
+                     <a class="dropdown-item" href="#">Perfume</a>
+                     <a class="dropdown-item" href="#">Socks</a>
+                     <a class="dropdown-item" href="#">Polo</a>
+                     <a class="dropdown-item" href="#">Chinos</a>
+                     <a class="dropdown-item" href="#">Shorts</a>
+                     <a class="dropdown-item" href="#">T Shirts</a>
+                  </div>
+               </li>
+               <li class="nav-item dmenu dropdown">
+                  <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Footwear
+                  </a>
+                  <div class="sm-menu" aria-labelledby="navbarDropdown" id="custom_submenu">
+                     <a class="dropdown-item" href="#">Casual Shirt</a>
+                     <a class="dropdown-item" href="#">Panjabi/Kurta</a>
+                     <a class="dropdown-item" href="#">Perfume</a>
+                     <a class="dropdown-item" href="#">Socks</a>
+                     <a class="dropdown-item" href="#">Polo</a>
+                     <a class="dropdown-item" href="#">Chinos</a>
+                     <a class="dropdown-item" href="#">Shorts</a>
+                     <a class="dropdown-item" href="#">T Shirts</a>
+                  </div>
+               </li>
+               <li class="nav-item dmenu dropdown">
+                  <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Accessories
+                  </a>
+                  <div class="sm-menu" aria-labelledby="navbarDropdown" id="custom_submenu">
+                     <a class="dropdown-item" href="#">Casual Shirt</a>
+                     <a class="dropdown-item" href="#">Panjabi/Kurta</a>
+                     <a class="dropdown-item" href="#">Perfume</a>
+                     <a class="dropdown-item" href="#">Socks</a>
+                     <a class="dropdown-item" href="#">Polo</a>
+                     <a class="dropdown-item" href="#">Chinos</a>
+                     <a class="dropdown-item" href="#">Shorts</a>
+                     <a class="dropdown-item" href="#">T Shirts</a>
+                  </div>
+               </li>
 
-               <li> <a href="#">Men</a> </li>
-               <li> <a href="#">Women</a> </li>
-               <li> <a href="#">Lifestyle</a> </li>
-               <li> <a href="#">Offers</a> </li>
-               <li> <a href="#">Gift Voucher</a> </li>
-               <li> <a href="#">Winter</a> </li>
-               <li> <a href="#">Sale</a> </li>
-               <li> <a href="#">Stor Location</a> </li>
             </ul>
          </div>
       </div>  
