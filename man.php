@@ -58,7 +58,7 @@ include('default/header.php');
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 pl-0 pr-0">
+            <div class="col-md-4 pl_o_pr_o">
                 <div class="man_parent">
                     <img src="images/men/2.png" alt="">
                     <div class="man_child">
@@ -85,7 +85,7 @@ include('default/header.php');
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 pl-0 pr-0">
+            <div class="col-md-4 pl_o_pr_o">
                 <div class="man_parent">
                     <img src="images/men/5.png" alt="">
                     <div class="man_child">
@@ -153,9 +153,11 @@ include('default/header.php');
         <div class="row">
             <div class="col-md-4">
                 <form action="#">
-                    <div class="row p-0">
+                    <div class="row row_p_o">
+                        <div class="col-md-12">
                         <h4>Ecstasy Newsletter!</h4>
-                        <div class="col-md-8 p-0">
+                        </div>
+                        <div class="col-md-8 row_p_o">
                             <input type="text" placeholder="Enter your eamil address here..">
                         </div>
                         <div class="col-md-4">
@@ -163,7 +165,7 @@ include('default/header.php');
                         </div>
                     </div>
                 </form>
-                <div class="row p-0 text-center pt-3 pb-3 text-center">
+                <div class="row row_p_o text-center pt-3 pb-3 text-center">
                     <div class="col-md-12">
                         <p>
                         Ecstasy HQ
@@ -195,7 +197,7 @@ include('default/header.php');
                 </div>
             </div>
             <div class="col-md-2">
-                <div class="men_footer">
+                <div class="men_footer border_none">
                     <ul class="">
                         <li> <a href="#">CONTACT US</a> </li>
                         <li> <a href="#">Blog</a> </li>
