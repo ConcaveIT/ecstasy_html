@@ -212,7 +212,7 @@ include('default/header.php');
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-                <p>COPYRIGHT © 2019 ECSTASY, ALL RIGHTS RESERVED. DEVELOPED BY TEAM ZOETROPE.  </p>
+                <p>COPYRIGHT © 2019 ECSTASY, ALL RIGHTS RESERVED. DEVELOPED BY TEAM VMSL.  </p>
             </div>
             <div class="col-md-4">
                <a href="#"> <img src="images/sslcommerze.png" alt=""></a>
