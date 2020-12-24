@@ -11,13 +11,14 @@
    <script src="js/jquery.3.2.1.js"></script>
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/responsive.css">
+
 </head>
 <body>
 <section id="header">
    <div class="container-fluid mobile_navbar">
       <div class="row">
          <div class="col-5 col-xs-5 col-sm-5 col-md-5 logo">
-            <img src="images/logo.png" alt="">
+            <a href="/ecstasy_html/home.php"><img src="images/logo.png" alt=""></a>
          </div> 
          <div class="col-7 col-xs-7 col-sm-7 col-md-7">
             <ul class="user_panel">
@@ -36,7 +37,7 @@
          <div class="col-12 mobile_mini">
             <ul>
                <li><li class="nav-item"><a class="nav-link" href="#"><i id="sidebar_show" class="fa fa-bars" aria-hidden="true"></i></a></li></li>
-               <li> <a href="#">Men</a> </li>
+               <li> <a href="/ecstasy_html/man.php">Men</a> </li>
                <li> <a href="#">Women</a> </li>
                <li> <a href="#">Lifestyle</a> </li>
                <li> <a href="#">Offers</a> </li>
@@ -170,7 +171,7 @@
          <div class="row">
             <div class="col-md-5">
                <ul>
-                  <li class="nav-item"><a class="nav-link" href="#">Men</a></li>
+                  <li class="nav-item"><a class="nav-link" href="/ecstasy_html/man.php">Men</a></li>
                   <li class="nav-item"><a class="nav-link" href="#">Women</a></li>
                   <li class="nav-item"><a class="nav-link" href="#">Lifestyle</a></li>
                   <li class="nav-item"><a class="nav-link" href="#">Offers</a></li>
@@ -180,7 +181,7 @@
                </ul>
             </div>
             <div class="col-md-2 logo">
-               <img src="images/logo.png" alt="">
+            <a href="/ecstasy_html/home.php"><img src="images/logo.png" alt=""></a>
             </div>
             <div class="col-md-5">
                <ul class="user_panel">

@@ -10,7 +10,7 @@ $('.navbar-light .dmenu').hover(function () {
     });
 }); 
  
-    $(document).ready(function() {
+$(document).ready(function() {
 	$(".megamenu").on("click", function(e) {
 		e.stopPropagation();
 	});
@@ -28,4 +28,13 @@ $(document).on('click', '#navbarDropdown',  function() {
 	$(this).parent('.dropdown').find(".sm-menu").toggle();
 	
 });
+
+
+//man page thumbnail slier js
+document.documentElement.setAttribute("lang", "en");
+document.documentElement.removeAttribute("class");
+
+axe.run( function(err, results) {
+  console.log( results.violations );
+} );
 

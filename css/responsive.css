@@ -25,3 +25,8 @@ display: none;
     max-width: 120px;
 }
 }
+@media (min-width: 1200px){
+#man_section_2 .container, #man_section_3 .container, #man_section_5 .container{
+    max-width: 1250px;
+}   
+}

@@ -30,7 +30,7 @@ include('default/header.php');
    </div>
 </section>
 
-
 <?php
 include('default/home_footer.php');
+include('default/footer.php');
 ?>
