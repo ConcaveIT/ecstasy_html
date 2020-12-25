@@ -1,5 +1,5 @@
 $(".sm-menu").hide();
-
+$('.content2').slideUp();
 
 $(document).ready(function () {
 
@@ -29,6 +29,13 @@ $(document).on('click', '#navbarDropdown',  function() {
 	
 });
 
+$(document).on('click', '.tab1',  function(e) {
+	$('.content1').slideToggle();
+});
+
+$(document).on('click', '.tab2',  function(e) {
+	$('.content2').slideToggle();
+});
 
 
 
@@ -36,9 +43,9 @@ var mybutton = document.getElementById("myBtn");
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
+    $("#myBtn").show();
   } else {
-    mybutton.style.display = "none";
+    $("#myBtn").hide();
   }
 }
 function topFunction() {

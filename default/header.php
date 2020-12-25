@@ -13,7 +13,7 @@
    <link rel="stylesheet" href="css/responsive.css">
 
 </head>
-<body>
+<body class="body">
 <section id="header">
    <div class="container-fluid mobile_navbar">
       <div class="row">

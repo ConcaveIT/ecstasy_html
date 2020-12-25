@@ -137,9 +137,7 @@ include('default/header.php');
 
 
 
-<button onclick="topFunction()" id="myBtn" title="Go to top">
-<img src="images/scroll_top.png" alt="">
-</button>
+<button onclick="topFunction()" id="myBtn" title="Go to top"><img src="images/scroll_top.png" alt=""></button>
 <?php
 include('default/men_footer.php');
 include('default/footer.php');
