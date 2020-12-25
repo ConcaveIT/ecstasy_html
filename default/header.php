@@ -203,7 +203,7 @@
             </div> 
          </div>        
       </div>
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-expand-lg navbar-light uniq_nab_header">
          <div class="container-fluid">
             <div class="collapse navbar-collapse">
                <ul class="navbar-nav navbar-light">
