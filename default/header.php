@@ -9,6 +9,8 @@
    <script src="js/bootstrap.4.1.1.js"></script>
    <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
    <script src="js/jquery.3.2.1.js"></script>
+   <script src="js/dist/zoomy.js"></script>
+   <link type="text/css" rel="stylesheet" href="js/dist/zoomy.css">
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/responsive.css">
 

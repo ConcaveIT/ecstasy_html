@@ -8,33 +8,35 @@ include('default/header.php');
 }
 </style>
 
-<script src="js/dist/zoomy.js"></script>
-<link type="text/css" rel="stylesheet" href="js/dist/zoomy.css">
+
 
 
 
 <div class="container mymodal diescripiton_modal">
     <div class="row">
-        <div class="col-md-10">
+        <div class="col-10 col-sm-10 col-md-10">
             <h4>HOODIE WITH FLAP POCKET</h4>
         </div>
-        <div class="col-md-2 text-right close_btn">
+        <div class="col-2 col-sm-2 col-md-2 text-right close_btn">
             <h5><i class="fa fa-times" aria-hidden="true"></i></h5>
         </div>
     </div>
     <hr>
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-12 col-sm-12 col-md-6">
             <div class="container">
                 <div id='el'></div>
             </div>
         </div>
-        <div class="col-md-6 tabs">
+        <div class="col-12 col-sm-12 col-md-6 tabs">
             <div class="row single_tab tab1">
-                <div class="col-md-12"> <h5>Details</h5> <i class="fa fa-plus" aria-hidden="true"></i> </div>
+                <div class="col-12 col-sm-12 col-md-12"> 
+                    <h5>Details</h5> 
+                    <i class="fa fa-minus" aria-hidden="true"></i> 
+                </div>
             </div>
             <div class="row single_tab_show content1">
-                <div class="col-md-12">
+                <div class="col-12 col-sm-12 col-md-12">
                     <div class="sku">SKU: 10001761-1</div>
                     <div class="compare"><i class="fa fa-random" aria-hidden="true"></i></div>
                     <div class="size">
@@ -45,18 +47,18 @@ include('default/header.php');
                     <hr>
                     <h3>৳ <strong>6213.00</strong></h3>
                     <div class="row cart_count">
-                        <div class="col-md-1"><span>-</span></div>
-                        <div class="col-md-1"><input type="text" min='1' max='20' value="1"></div>
-                        <div class="col-md-1"> <span>+</span> </div>
-                        <div class="col-md-4"> <span class="add_to_cart">ADD TO CART</span> </div>
+                        <div class="col-2 col-sm-2 col-md-1"><span>-</span></div>
+                        <div class="col-2 col-sm-2 col-md-1"><input type="text" min='1' max='20' value="1"></div>
+                        <div class="col-2 col-sm-2 col-md-1"> <span>+</span> </div>
+                        <div class="col-6 col-sm-6 col-md-4"> <span class="add_to_cart">ADD TO CART</span> </div>
                     </div>
                 </div>
             </div>
             <div class="row single_tab tab2">
-                <div class="col-md-12"> <h5>Description</h5> <i class="fa fa-plus" aria-hidden="true"></i> </div>
+                <div class="col-12 col-sm-12 col-md-12"> <h5>Description</h5> <i class="fa fa-plus" aria-hidden="true"></i> </div>
             </div>
             <div class="row single_tab_show content2">
-                <div class="col-md-12">
+                <div class="col-12 col-sm-12 col-md-12">
                     <p>Slim fit adjustable hooded collar and long sleeves. Front pouch pocket. Ribbed trim.</p>
                 </div>
             </div>

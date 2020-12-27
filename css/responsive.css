@@ -1,4 +1,31 @@
 @media (max-width: 767px){
+.zoom-thumb a {
+height: 17% !important;
+}
+.diescripiton_modal {
+padding: 8px;
+}
+.mymodal {
+    top: 2%;
+    left: 3%;
+    width: 94%;
+}
+.size select {
+    width: 80%;
+}
+.cart_count div {
+    margin-right: 0px;
+}
+.tabs{
+    padding-left: 30px;
+}
+.diescripiton_modal h4{
+    font-size: 17px;
+}
+.zoom {
+    height: 345px !important;
+}
+
 .fa-shopping-bag {
 padding: 15px 20px 20px 15px !important;
 }
@@ -113,4 +140,12 @@ max-width: 120px;
 #man_section_2 .container, #man_section_3 .container, #man_section_5 .container, #men_single_1 .container, #men_single_2 .container{
 max-width: 1250px;
 }   
+}
+
+
+
+@media (max-width: 320px){
+.zoom-thumb a {
+height: 17% !important;
+}	
 }

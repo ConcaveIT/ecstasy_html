@@ -30,13 +30,31 @@ $(document).on('click', '#navbarDropdown',  function() {
 });
 
 $(document).on('click', '.tab1',  function(e) {
-	$('.content1').slideToggle();
+  $('.content1').slideUp();
+  $(this).find('.fa').removeClass('fa-minus').addClass('fa-plus');
+  $(this).addClass('minus_class');
+  $(this).removeClass('tab1');
 });
+$(document).on('click', '.minus_class',  function(e) {
+  $('.content1').slideDown();
+  $(this).find('.fa').removeClass('fa-plus').addClass('fa-minus');
+  $(this).removeClass('minus_class');
+  $(this).addClass('tab1');
+});
+
 
 $(document).on('click', '.tab2',  function(e) {
-	$('.content2').slideToggle();
+  $('.content2').slideDown();
+  $(this).find('.fa').removeClass('fa-plus').addClass('fa-minus');
+  $(this).addClass('minus_class2');
+  $(this).removeClass('tab2');
 });
-
+$(document).on('click', '.minus_class2',  function(e) {
+  $('.content2').slideUp();
+  $(this).find('.fa').removeClass('fa-minus').addClass('fa-plus');
+  $(this).removeClass('minus_class2');
+  $(this).addClass('tab2');
+});
 
 
 var mybutton = document.getElementById("myBtn");
