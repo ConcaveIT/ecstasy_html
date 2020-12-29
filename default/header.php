@@ -13,7 +13,6 @@
    <link type="text/css" rel="stylesheet" href="js/dist/zoomy.css">
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/responsive.css">
-
 </head>
 <body class="body">
 <section id="header">

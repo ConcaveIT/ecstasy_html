@@ -8,7 +8,110 @@ include('default/header.php');
 }
 </style>
 
+<div class="container mymodal add_to_wistlist_modal">
+    <div class="row">
+        <div class="col-10 col-sm-10 col-md-10">
+            <h4>HOODIE WITH FLAP POCKET</h4>
+        </div>
+        <div class="col-2 col-sm-2 col-md-2 text-right close_btn">
+            <h5><i class="fa fa-times" aria-hidden="true"></i></h5>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <img src="images/men/1.png" alt="">
+        </div>
+        <div class="col-md-6">
+            <p> <strong>BLACK LEATHER CHELSEA BOOTS</strong> </p>
+            <p>
+                Leather ankle boots. Brown. Decorative stitching at upper. DoubleLeather ankle boots. Brown. Decorative stitching at upper. Double
+                Leather ankle boots. Brown. Decorative stitching at upper. DoubleLeather ankle boots. Brown. Decorative stitching at upper. Double
+                Leather ankle boots. Brown. Decorative stitching at upper. DoubleLeather ankle boots. Brown. Decorative stitching at upper. Double
+                Leather ankle boots. Brown. Decorative stitching at upper. DoubleLeather ankle boots. Brown. Decorative stitching at upper. Double
+                Leather ankle boots. Brown. Decorative stitching at upper. DoubleLeather ankle boots. Brown. Decorative stitching at upper. Double
+            
+            </p>
+            <hr>
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12">
+                    <h3>৳ <strong>6213.00</strong></h3>
+                    <div class="size">
+                        Size <span>*</span> 
+                    <select name="" id="">
+                        <option value="">36</option>
+                        <option value="">37</option>
+                        <option value="">38</option>
+                        <option value="">39</option>
+                        <option value="">40</option>
+                        <option value="">41</option>
+                    </select>
+                    </div>  
+                    
+                    <hr>
+                    <div class="row cart_count">
+                        <div class="col-2 col-sm-2 col-md-2"><input type="text" min='1' max='20' value="1"></div>
+                        <div class="col-6 col-sm-6 col-md-6"> <span class="add_to_cart">ADD TO WISTLIST</span> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
+
+
+
+<div class="container mymodal add_to_card_modal">
+    <div class="row">
+        <div class="col-10 col-sm-10 col-md-10">
+            <h4>HOODIE WITH FLAP POCKET</h4>
+        </div>
+        <div class="col-2 col-sm-2 col-md-2 text-right close_btn">
+            <h5><i class="fa fa-times" aria-hidden="true"></i></h5>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <img src="images/men/1.png" alt="">
+        </div>
+        <div class="col-md-6">
+            <p> <strong>BLACK LEATHER CHELSEA BOOTS</strong> </p>
+            <p>
+                Leather ankle boots. Brown. Decorative stitching at upper. DoubleLeather ankle boots. Brown. Decorative stitching at upper. Double
+                Leather ankle boots. Brown. Decorative stitching at upper. DoubleLeather ankle boots. Brown. Decorative stitching at upper. Double
+                Leather ankle boots. Brown. Decorative stitching at upper. DoubleLeather ankle boots. Brown. Decorative stitching at upper. Double
+                Leather ankle boots. Brown. Decorative stitching at upper. DoubleLeather ankle boots. Brown. Decorative stitching at upper. Double
+                Leather ankle boots. Brown. Decorative stitching at upper. DoubleLeather ankle boots. Brown. Decorative stitching at upper. Double
+            
+            </p>
+            <hr>
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12">
+                    <h3>৳ <strong>6213.00</strong></h3>
+                    <div class="size">
+                        Size <span>*</span> 
+                    <select name="" id="">
+                        <option value="">36</option>
+                        <option value="">37</option>
+                        <option value="">38</option>
+                        <option value="">39</option>
+                        <option value="">40</option>
+                        <option value="">41</option>
+                    </select>
+                    </div>  
+                    
+                    <hr>
+                    <div class="row cart_count">
+                        <div class="col-2 col-sm-2 col-md-1"><span>-</span></div>
+                        <div class="col-2 col-sm-2 col-md-1"><input type="text" min='1' max='20' value="1"></div>
+                        <div class="col-2 col-sm-2 col-md-1"> <span>+</span> </div>
+                        <div class="col-6 col-sm-6 col-md-4"> <span class="add_to_cart">ADD TO CART</span> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
@@ -40,7 +143,14 @@ include('default/header.php');
                     <div class="sku">SKU: 10001761-1</div>
                     <div class="compare"><i class="fa fa-random" aria-hidden="true"></i></div>
                     <div class="size">
-                        Size <span>*</span> <select name="" id="">
+                        Size <span>*</span> 
+                    <select name="" id="">
+                    <option value="">36</option>
+                        <option value="">37</option>
+                        <option value="">38</option>
+                        <option value="">39</option>
+                        <option value="">40</option>
+                        <option value="">41</option>
                     </select>
                     </div>  
                     
@@ -158,11 +268,11 @@ include('default/header.php');
                     <div class="man_child">
                         <div class="row linkig_option">
                             <div class="col-2 col-sm-2 col-md-2"></div>
-                            <div id="desciption_btn" class="col-2 col-sm-2 col-md-2 pl_o_pr_o"><i class="fa fa-search-plus" aria-hidden="true"></i></div>
-                            <div class="col-2 col-sm-2 col-md-2 pl_o_pr_o"><i class="fa fa-shopping-bag" aria-hidden="true"></i></div>
-                            <div class="col-2 col-sm-2 col-md-2 pl_o_pr_o"><i class="fa fa-heart" aria-hidden="true"></i></div>
-                            <div class="col-2 col-sm-2 col-md-2 pl_o_pr_o"><i class="fa fa-random" aria-hidden="true"></i></div>
-                            <div class="col-2 col-sm-2 col-md-2"></div>
+                            <div onclick="topFunction()" id="desciption_btn" class="col-2 col-sm-2 col-md-2 pl_o_pr_o"><i class="fa fa-search-plus" aria-hidden="true"></i></div>
+                            <div onclick="topFunction()" id="add_to_card_btn" class="col-2 col-sm-2 col-md-2 pl_o_pr_o"><i class="fa fa-shopping-bag" aria-hidden="true"></i></div>
+                            <div onclick="topFunction()" id="add_to_wistlist_btn" class="col-2 col-sm-2 col-md-2 pl_o_pr_o"><i class="fa fa-heart" aria-hidden="true"></i></div>
+                            <div onclick="topFunction()" class="col-2 col-sm-2 col-md-2 pl_o_pr_o"><i class="fa fa-random" aria-hidden="true"></i></div>
+                            <div  class="col-2 col-sm-2 col-md-2"></div>
                         </div>
                     </div>
                 </div>
@@ -170,17 +280,18 @@ include('default/header.php');
                     <p>CAMOUFLAGE HOODED JACKET <strong>৳ 3969.00</strong> </p>
                 </div>
             </div>
+
             <div class="col-md-6 pl_o mb-3">
                 <div class="man_parent men_single_page">
                     <img src="images/men/2.png" alt="">
                     <div class="man_child">
                         <div class="row linkig_option">
                             <div class="col-2 col-sm-2 col-md-2"></div>
-                            <div class="col-2 col-sm-2 col-md-2 pl_o_pr_o"><i class="fa fa-search-plus" aria-hidden="true"></i></div>
-                            <div class="col-2 col-sm-2 col-md-2 pl_o_pr_o"><i class="fa fa-shopping-bag" aria-hidden="true"></i></div>
-                            <div class="col-2 col-sm-2 col-md-2 pl_o_pr_o"><i class="fa fa-heart" aria-hidden="true"></i></div>
-                            <div class="col-2 col-sm-2 col-md-2 pl_o_pr_o"><i class="fa fa-random" aria-hidden="true"></i></div>
-                            <div class="col-2 col-sm-2 col-md-2"></div>
+                            <div onclick="topFunction()" id="desciption_btn" class="col-2 col-sm-2 col-md-2 pl_o_pr_o"><i class="fa fa-search-plus" aria-hidden="true"></i></div>
+                            <div onclick="topFunction()" id="add_to_card_btn" class="col-2 col-sm-2 col-md-2 pl_o_pr_o"><i class="fa fa-shopping-bag" aria-hidden="true"></i></div>
+                            <div onclick="topFunction()" id="add_to_wistlist_btn" class="col-2 col-sm-2 col-md-2 pl_o_pr_o"><i class="fa fa-heart" aria-hidden="true"></i></div>
+                            <div onclick="topFunction()" class="col-2 col-sm-2 col-md-2 pl_o_pr_o"><i class="fa fa-random" aria-hidden="true"></i></div>
+                            <div  class="col-2 col-sm-2 col-md-2"></div>
                         </div>
                     </div>
                 </div>
@@ -190,15 +301,15 @@ include('default/header.php');
             </div>
             <div class="col-md-6 pl_o mb-3">
                 <div class="man_parent men_single_page">
-                    <img src="images/120.png" alt="">
+                    <img src="images/men/5.png" alt="">
                     <div class="man_child">
                         <div class="row linkig_option">
                             <div class="col-2 col-sm-2 col-md-2"></div>
-                            <div class="col-2 col-sm-2 col-md-2 pl_o_pr_o"><i class="fa fa-search-plus" aria-hidden="true"></i></div>
-                            <div class="col-2 col-sm-2 col-md-2 pl_o_pr_o"><i class="fa fa-shopping-bag" aria-hidden="true"></i></div>
-                            <div class="col-2 col-sm-2 col-md-2 pl_o_pr_o"><i class="fa fa-heart" aria-hidden="true"></i></div>
-                            <div class="col-2 col-sm-2 col-md-2 pl_o_pr_o"><i class="fa fa-random" aria-hidden="true"></i></div>
-                            <div class="col-2 col-sm-2 col-md-2"></div>
+                            <div onclick="topFunction()" id="desciption_btn" class="col-2 col-sm-2 col-md-2 pl_o_pr_o"><i class="fa fa-search-plus" aria-hidden="true"></i></div>
+                            <div onclick="topFunction()" id="add_to_card_btn" class="col-2 col-sm-2 col-md-2 pl_o_pr_o"><i class="fa fa-shopping-bag" aria-hidden="true"></i></div>
+                            <div onclick="topFunction()" id="add_to_wistlist_btn" class="col-2 col-sm-2 col-md-2 pl_o_pr_o"><i class="fa fa-heart" aria-hidden="true"></i></div>
+                            <div onclick="topFunction()" class="col-2 col-sm-2 col-md-2 pl_o_pr_o"><i class="fa fa-random" aria-hidden="true"></i></div>
+                            <div  class="col-2 col-sm-2 col-md-2"></div>
                         </div>
                     </div>
                 </div>
@@ -212,11 +323,11 @@ include('default/header.php');
                     <div class="man_child">
                         <div class="row linkig_option">
                             <div class="col-2 col-sm-2 col-md-2"></div>
-                            <div class="col-2 col-sm-2 col-md-2 pl_o_pr_o"><i class="fa fa-search-plus" aria-hidden="true"></i></div>
-                            <div class="col-2 col-sm-2 col-md-2 pl_o_pr_o"><i class="fa fa-shopping-bag" aria-hidden="true"></i></div>
-                            <div class="col-2 col-sm-2 col-md-2 pl_o_pr_o"><i class="fa fa-heart" aria-hidden="true"></i></div>
-                            <div class="col-2 col-sm-2 col-md-2 pl_o_pr_o"><i class="fa fa-random" aria-hidden="true"></i></div>
-                            <div class="col-2 col-sm-2 col-md-2"></div>
+                            <div onclick="topFunction()" id="desciption_btn" class="col-2 col-sm-2 col-md-2 pl_o_pr_o"><i class="fa fa-search-plus" aria-hidden="true"></i></div>
+                            <div onclick="topFunction()" id="add_to_card_btn" class="col-2 col-sm-2 col-md-2 pl_o_pr_o"><i class="fa fa-shopping-bag" aria-hidden="true"></i></div>
+                            <div onclick="topFunction()" id="add_to_wistlist_btn" class="col-2 col-sm-2 col-md-2 pl_o_pr_o"><i class="fa fa-heart" aria-hidden="true"></i></div>
+                            <div onclick="topFunction()" class="col-2 col-sm-2 col-md-2 pl_o_pr_o"><i class="fa fa-random" aria-hidden="true"></i></div>
+                            <div  class="col-2 col-sm-2 col-md-2"></div>
                         </div>
                     </div>
                 </div>
@@ -229,19 +340,45 @@ include('default/header.php');
 </section>
 
 <script>
-$(document).on('click', '#desciption_btn',  function() {
+$(".add_to_card_modal").hide();
+$(".diescripiton_modal").hide();
+$(".add_to_wistlist_modal").hide();
+
+$(document).on('click', '#add_to_wistlist_btn',  function() {
     $('.body').css({'background':'#7979799c', 'z-index':'999'});
-    $('.man_child, .home_child').css({'background':'#7979799c'});
+    $('.man_child', '.home_child', '#man_section_4').css({'background':'#7979799c'});
     $('input, select').css({'background':'#7979799c'});
     $('.size select').css({'background':'#fff'});
-	$(".diescripiton_modal").fadeIn();
+    $('.man_parent img').css({'opacity':'0.2'});
+	$(".add_to_wistlist_modal").fadeIn();
 });  
+$(document).on('click', '#add_to_card_btn',  function() {
+    $('.body').css({'background':'#7979799c', 'z-index':'999'});
+    $('.man_child', '.home_child', '#man_section_4').css({'background':'#7979799c'});
+    $('input, select').css({'background':'#7979799c'});
+    $('.size select').css({'background':'#fff'});
+    $('.man_parent img').css({'opacity':'0.2'});
+	$(".add_to_card_modal").fadeIn();
+});  
+$(document).on('click', '#desciption_btn',  function() {
+  $('.body').css({'background':'#7979799c', 'z-index':'999'});
+  $('.man_child', '.home_child', '#man_section_4').css({'background':'#7979799c'});
+  $('input, select').css({'background':'#7979799c'});
+  $('.size select').css({'background':'#fff'});
+  $('.man_parent img').css({'opacity':'0.2'});
+$(".diescripiton_modal").fadeIn();
+});  
+
 $(document).on('click', '.close_btn',  function() {
-    $('.body').css({'background':'none'});
-    $('.man_child, .home_child').css({'background':'none'});
-    $('input, select').css({'background':'none'});
-	$(".diescripiton_modal").fadeOut();
+  $('.body').css({'background':'none'});
+  $('.man_child', '.home_child','#man_section_4').css({'background':'none'});
+  $('input, select').css({'background':'none'});
+  $('.man_parent img').css({'opacity':'1'});
+  $(".diescripiton_modal").fadeOut();
+  $(".add_to_card_modal").fadeOut();
+  $('.add_to_wistlist_modal').fadeOut();
 }); 
+
 </script>
 <!-- image zoom jquery plugin  start-->
 <script>
