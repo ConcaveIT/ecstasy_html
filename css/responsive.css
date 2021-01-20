@@ -191,5 +191,9 @@ max-width: 1250px;
 @media (max-width: 320px){
 .zoom-thumb a {
 height: 17% !important;
+}
+.cart_div_mobile {
+    right: 10px;
+    width: 300px;
 }	
 }

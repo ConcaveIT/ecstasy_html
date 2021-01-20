@@ -121,10 +121,18 @@ padding: 20px 0px 15px 14px;
 }
 .header_nav  ul{
 padding-left: 30px;
+padding-top: 8px;
+}
+.logo{
+    text-align: center;
 }
 .logo img{
-max-width: 140px;
+max-width: 80px;
 height: auto;
+}
+.mobile_logo img{
+    max-width: 80px !important;
+    height: auto;  
 }
 .header_nav{
 border-bottom: 1px solid #00000026;
@@ -162,15 +170,14 @@ padding: 15px;
 background: #fdfdfd;    
 }
 .header_nav .row{
-padding-top: 10px;
-padding-bottom: 10px;
+padding-bottom: 2px;
 }
 .mobile_navbar .user_panel li {
 float: right;
 padding-right: 15px !important;
 }
 .mobile_navbar .logo img {
-padding-top: 15px;
+padding-top: 5px;
 }
 .login_register_parent{
 position: relative;
@@ -1121,4 +1128,58 @@ text-align: center;
     border: 1px solid #d4d9de;
     line-height: 35px;    
     margin: 15px 0px;
+}
+.cart_header{
+    float: left;
+    margin-right: 10px;
+}
+.cart_header input {
+    width: 35px;
+    padding: 2px;
+}
+.cart_div b{
+    font-size: 13px;
+}
+.cart_div td{
+    padding:10px;
+}
+
+.cart_div{
+    position: absolute;
+    z-index: 9999;
+    right: 40px;
+    background: #fff;
+    box-shadow: 0px 0px 6px -1px;
+    width: 354px;    
+}
+.cart_title{
+    width:100%;
+    text-align: center;
+    padding: 30px 0px;
+}
+.cart_btn{
+    border: 1px solid #456;
+    padding: 10px;
+    width: 160px;
+    margin: 25px auto;
+    text-align: center;
+    cursor: pointer;
+}
+.cart_div{
+    display: none;
+}
+#cart_parent:hover .cart_div{
+    display: block;
+}
+
+.cart_div_mobile {
+    right: 10px;
+    width: 335px;
+}
+.mobile_logo{
+    text-align: left  !important;
+}
+.mobile_logo img{
+    max-width: 50px !important;
+    height: auto;  
 }

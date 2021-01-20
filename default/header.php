@@ -18,8 +18,8 @@
 <section id="header">
    <div class="container-fluid mobile_navbar">
       <div class="row">
-         <div class="col-5 col-xs-5 col-sm-5 col-md-5 logo">
-            <a href="/ecstasy_html/home.php"><img src="images/logo.png" alt=""></a>
+         <div class="col-5 col-xs-5 col-sm-5 col-md-5 logo mobile_logo">
+            <a href="/ecstasy_html/home.php"><img src="images/logo2.png" alt=""></a>
          </div> 
          <div class="col-7 col-xs-7 col-sm-7 col-md-7">
             <ul class="user_panel">
@@ -30,7 +30,58 @@
                       <p><a href="#">Register</a> </p>
                   </div>
                </li>
-              <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+               <li class="nav-item" id="cart_parent">
+                  <a class="nav-link" href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                  <div class="cart_div cart_div_mobile">
+                     <div class="cart_title">
+                        <h5>YOUR SHOPPING BAG</h5>
+                     </div>
+                     <table class="table">
+                        <tbody>
+                              <tr>
+                                 <td> <img src="images/shirt.png" alt="prduct.png" height="" width="80px"> </td>
+                                 <td> 
+                                    <b>BLACK LEATHER CHELSEA BOOTS</b> 
+                                    <p class="cart_size">SIZE: <strong>38</strong></p>
+                                    <div class="cart_qty cart_header">
+                                          <input type="text" min="1" value="1">
+                                    </div>
+                                    <div class="price">৳ 7749.00</div>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td> <img src="images/shirt.png" alt="prduct.png" height="" width="80px"> </td>
+                                 <td> 
+                                    <b>BLACK LEATHER CHELSEA BOOTS</b> 
+                                    <p class="cart_size">SIZE: <strong>38</strong></p>
+                                    <div class="cart_qty cart_header">
+                                          <input type="text" min="1" value="1">
+                                    </div>
+                                    <div class="price">৳ 7749.00</div>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td> <img src="images/shirt.png" alt="prduct.png" height="" width="80px"> </td>
+                                 <td> 
+                                    <b>BLACK LEATHER CHELSEA BOOTS</b> 
+                                    <p class="cart_size">SIZE: <strong>38</strong></p>
+                                    <div class="cart_qty cart_header">
+                                          <input type="text" min="1" value="1">
+                                    </div>
+                                    <div class="price">৳ 7749.00</div>
+                                 </td>
+                              </tr>  
+                              <tr class="sub_total">
+                                 <td><b>Sub Tatal:</b></td>
+                                 <td class="text-right"><b>৳ 7749.00</b></td>
+                              </tr>                        
+                        </tbody>
+                     </table>
+                     <div class="cart_btn">
+                        <span>Go To Cart</span>
+                     </div>
+                  </div>
+               </li>
             </ul>
          </div> 
       </div>
@@ -47,7 +98,7 @@
       </div>
       <div class="row sidebar">
          <div class="col-2 col-sm-2 col-md-2">
-            <i class="fa fa-home" aria-hidden="true"></i>
+            <a href="http://localhost/ecstasy_html/"><i class="fa fa-home" aria-hidden="true"></i></a>
          </div>
          <div class="col-8 col-sm-8 col-md-8"> </div>
          <div class="col-2 col-sm-2 col-md-2">
@@ -182,7 +233,7 @@
                </ul>
             </div>
             <div class="col-md-2 logo">
-            <a href="/ecstasy_html/home.php"><img src="images/logo.png" alt=""></a>
+            <a href="/ecstasy_html/home.php"><img src="images/logo2.png" alt=""></a>
             </div>
             <div class="col-md-5">
                <ul class="user_panel">
@@ -193,7 +244,58 @@
                          <p><a href="#">Register</a> </p>
                      </div>
                   </li>
-                  <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+                  <li class="nav-item" id="cart_parent">
+                     <a class="nav-link" href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                     <div class="cart_div">
+                        <div class="cart_title">
+                           <h5>YOUR SHOPPING BAG</h5>
+                        </div>
+                        <table class="table">
+                           <tbody>
+                                 <tr>
+                                    <td> <img src="images/shirt.png" alt="prduct.png" height="" width="80px"> </td>
+                                    <td> 
+                                       <b>BLACK LEATHER CHELSEA BOOTS</b> 
+                                       <p class="cart_size">SIZE: <strong>38</strong></p>
+                                       <div class="cart_qty cart_header">
+                                             <input type="text" min="1" value="1">
+                                       </div>
+                                       <div class="price">৳ 7749.00</div>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td> <img src="images/shirt.png" alt="prduct.png" height="" width="80px"> </td>
+                                    <td> 
+                                       <b>BLACK LEATHER CHELSEA BOOTS</b> 
+                                       <p class="cart_size">SIZE: <strong>38</strong></p>
+                                       <div class="cart_qty cart_header">
+                                             <input type="text" min="1" value="1">
+                                       </div>
+                                       <div class="price">৳ 7749.00</div>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td> <img src="images/shirt.png" alt="prduct.png" height="" width="80px"> </td>
+                                    <td> 
+                                       <b>BLACK LEATHER CHELSEA BOOTS</b> 
+                                       <p class="cart_size">SIZE: <strong>38</strong></p>
+                                       <div class="cart_qty cart_header">
+                                             <input type="text" min="1" value="1">
+                                       </div>
+                                       <div class="price">৳ 7749.00</div>
+                                    </td>
+                                 </tr>  
+                                 <tr class="sub_total">
+                                    <td><b>Sub Tatal:</b></td>
+                                    <td class="text-right"><b>৳ 7749.00</b></td>
+                                 </tr>                        
+                           </tbody>
+                        </table>
+                        <div class="cart_btn">
+                           <span>Go To Cart</span>
+                        </div>
+                     </div>
+                  </li>
                   <li class="nav-item">
                      <form action="#" class="header_search">
                         <i class="fa fa-search" aria-hidden="true"></i>
