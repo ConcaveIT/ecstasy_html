@@ -25,7 +25,7 @@
                         <div class="col-md-8 row_p_o">
                             <input type="text" placeholder="Enter your eamil address here..">
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 pl_o">
                             <input type="submit" value="Subscribe">
                         </div>
                     </div>

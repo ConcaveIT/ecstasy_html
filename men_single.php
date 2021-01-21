@@ -10,10 +10,10 @@ include('default/header.php');
 
 <div class="container mymodal add_to_wistlist_modal">
     <div class="row">
-        <div class="col-10 col-sm-10 col-md-10">
+        <div class="col-11 col-sm-11 col-md-11">
             <h4>HOODIE WITH FLAP POCKET</h4>
         </div>
-        <div class="col-2 col-sm-2 col-md-2 text-right close_btn">
+        <div class="col-1 col-sm-1 col-md-1 text-right close_btn">
             <h5><i class="fa fa-times" aria-hidden="true"></i></h5>
         </div>
     </div>
@@ -349,7 +349,8 @@ $(document).on('click', '#add_to_wistlist_btn',  function() {
     $('.man_child', '.home_child', '#man_section_4').css({'background':'#7979799c'});
     $('input, select').css({'background':'#7979799c'});
     $('.size select').css({'background':'#fff'});
-    $('.man_parent img').css({'opacity':'0.2'});
+    $('.man_parent img, .logo img').css({'opacity':'0.2'});
+
 	$(".add_to_wistlist_modal").fadeIn();
 });  
 $(document).on('click', '#add_to_card_btn',  function() {
@@ -357,7 +358,7 @@ $(document).on('click', '#add_to_card_btn',  function() {
     $('.man_child', '.home_child', '#man_section_4').css({'background':'#7979799c'});
     $('input, select').css({'background':'#7979799c'});
     $('.size select').css({'background':'#fff'});
-    $('.man_parent img').css({'opacity':'0.2'});
+    $('.man_parent img, .logo img').css({'opacity':'0.2'});
 	$(".add_to_card_modal").fadeIn();
 });  
 $(document).on('click', '#desciption_btn',  function() {
@@ -365,19 +366,29 @@ $(document).on('click', '#desciption_btn',  function() {
   $('.man_child', '.home_child', '#man_section_4').css({'background':'#7979799c'});
   $('input, select').css({'background':'#7979799c'});
   $('.size select').css({'background':'#fff'});
-  $('.man_parent img').css({'opacity':'0.2'});
-$(".diescripiton_modal").fadeIn();
+  $('.man_parent img, .logo img').css({'opacity':'0.2'});
+  $(".diescripiton_modal").fadeIn();
 });  
 
 $(document).on('click', '.close_btn',  function() {
   $('.body').css({'background':'none'});
   $('.man_child', '.home_child','#man_section_4').css({'background':'none'});
   $('input, select').css({'background':'none'});
-  $('.man_parent img').css({'opacity':'1'});
+  $('.man_parent img, .logo img').css({'opacity':'1'});
   $(".diescripiton_modal").fadeOut();
   $(".add_to_card_modal").fadeOut();
   $('.add_to_wistlist_modal').fadeOut();
 }); 
+
+// $(".row:not('.diescripiton_modal, .add_to_card_modal, .add_to_wistlist_modal')").click(function(){
+//     $('.body').css({'background':'none'});
+//   $('.man_child', '.home_child','#man_section_4').css({'background':'none'});
+//   $('input, select').css({'background':'none'});
+//   $('.man_parent img, .logo img').css({'opacity':'1'});
+//   $(".diescripiton_modal").fadeOut();
+//   $(".add_to_card_modal").fadeOut();
+//   $('.add_to_wistlist_modal').fadeOut();
+// });
 
 </script>
 <!-- image zoom jquery plugin  start-->
