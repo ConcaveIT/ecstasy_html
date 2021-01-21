@@ -144,4 +144,11 @@ $(document).ready(function () {
 });
 
 
-
+$(document).on('click', '#navbarDropdown', function(){
+  if ($(this).children('#caret').hasClass('caret_down')) {
+        $(this).children('#caret').removeClass('caret_down').addClass('caret_up');
+        return false;
+  }else{
+     $(this).children('#caret').removeClass('caret_up').addClass('caret_down');
+  }
+});

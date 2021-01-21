@@ -1226,3 +1226,28 @@ text-align: center;
     background: #fff;
     z-index: 99;     */
 }
+.caret_up {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-bottom: 5px dashed;
+    border-top: 0px solid transparent;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    margin: 0px 0px 0px 5px;
+ }
+
+ .caret_down {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 5px dashed;
+    border-top: 5px solid\9;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    margin: -7px 0px 0px 7px;
+}

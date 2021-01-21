@@ -125,7 +125,9 @@ border-bottom:none !important;
 #copywrite .container {
 padding: 0px 15px 15px 15px;
 }
-
+.cart_div {
+    top: 61px;
+}
 }
 
 

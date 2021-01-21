@@ -107,8 +107,8 @@
          <div class="side_nav">
             <ul>
                <li class="nav-item dmenu dropdown">
-                  <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  New In
+                  <a href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  New In<span id="caret" class="caret_down"></span>
                   </a>
                   <div class="sm-menu" aria-labelledby="navbarDropdown" id="custom_submenu">
                      <a class="dropdown-item" href="#"> Casual Shirt</a>
@@ -121,10 +121,11 @@
                      <a class="dropdown-item" href="#">T Shirts</a>
                   </div>
                </li>
+
                <li> <a href="#">TANJIM SQUAD</a> </li>
                <li class="nav-item dmenu dropdown">
-                  <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Winter
+                  <a href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Winter<span id="caret" class="caret_down"></span>
                   </a>
                   <div class="sm-menu" aria-labelledby="navbarDropdown" id="custom_submenu">
                      <a class="dropdown-item" href="#">Casual Shirt</a>
@@ -138,8 +139,8 @@
                   </div>
                </li>
                <li class="nav-item dmenu dropdown">
-                  <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Shirts & Tees
+                  <a href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Shirts & Tees<span id="caret" class="caret_down"></span>
                   </a>
                   <div class="sm-menu" aria-labelledby="navbarDropdown" id="custom_submenu">
                      <a class="dropdown-item" href="#">Casual Shirt</a>
@@ -154,8 +155,8 @@
                </li>
 
                <li class="nav-item dmenu dropdown">
-                  <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Ethnic & Festive Wear
+                  <a href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Ethnic & Festive Wear<span id="caret" class="caret_down"></span>
                   </a>
                   <div class="sm-menu" aria-labelledby="navbarDropdown" id="custom_submenu">
                      <a class="dropdown-item" href="#">Casual Shirt</a>
@@ -169,8 +170,8 @@
                   </div>
                </li>
                <li class="nav-item dmenu dropdown">
-                  <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Pants
+                  <a href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Pants<span id="caret" class="caret_down"></span>
                   </a>
                   <div class="sm-menu" aria-labelledby="navbarDropdown" id="custom_submenu">
                      <a class="dropdown-item" href="#">Casual Shirt</a>
@@ -184,8 +185,8 @@
                   </div>
                </li>
                <li class="nav-item dmenu dropdown">
-                  <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Footwear
+                  <a href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Footwear<span id="caret" class="caret_down"></span>
                   </a>
                   <div class="sm-menu" aria-labelledby="navbarDropdown" id="custom_submenu">
                      <a class="dropdown-item" href="#">Casual Shirt</a>
@@ -199,8 +200,8 @@
                   </div>
                </li>
                <li class="nav-item dmenu dropdown">
-                  <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Accessories
+                  <a href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Accessories<span id="caret" class="caret_down"></span>
                   </a>
                   <div class="sm-menu" aria-labelledby="navbarDropdown" id="custom_submenu">
                      <a class="dropdown-item" href="#">Casual Shirt</a>
